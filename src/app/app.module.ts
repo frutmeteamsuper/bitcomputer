@@ -46,6 +46,11 @@ import { TestappComponent } from './components/testapp/testapp.component';
 // import { FruitproductsComponent } from './components/fruitproducts/fruitproducts.component';
 // import { FruittopbarComponent } from './components/fruittopbar/fruittopbar.component';
 import { Component, Inject} from '@angular/core';
+import { NavheaderComponent } from './components/navheader/navheader.component';
+import { ChatboxComponent } from './components/chatbox/chatbox.component';
+import { HeaderComponent } from './components/header/header.component';
+import { DeznavComponent } from './components/deznav/deznav.component';
+import { FooterComponent } from './components/footer/footer.component';
 // import { FruitcartComponent } from './components/fruitcart/fruitcart.component';
 // import { PagoComponent } from './components/pago/pago.component';
 
@@ -53,6 +58,11 @@ import { Component, Inject} from '@angular/core';
   declarations: [
     AppComponent,
     TestappComponent,
+    NavheaderComponent,
+    ChatboxComponent,
+    HeaderComponent,
+    DeznavComponent,
+    FooterComponent,
     // FruitfooterComponent,
     // FruitcestaComponent,
     // FruitbannerComponent,

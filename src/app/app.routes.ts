@@ -1,6 +1,11 @@
 import {RouterModule,Routes} from '@angular/router';
 import {
-	TestappComponent
+	TestappComponent,
+	ChatboxComponent,
+	HeaderComponent,
+	DeznavComponent,
+	NavheaderComponent,
+	FooterComponent
 	// FruitproductsComponent,
 	// FruitbannerComponent,
 	// FruitbannerboxComponent,
@@ -16,6 +21,11 @@ import {
 
 const app_routes: Routes = [
 	{path:'',component:TestappComponent},
+	{path:'chatbox',component:ChatboxComponent},
+	{path:'header',component:HeaderComponent},
+	{path:'deznav',component:DeznavComponent},
+	{path:'navheader',component:NavheaderComponent},
+	{path:'footer',component:FooterComponent},
 	// {path:'fruittopbar',component:FruittopbarComponent},
 	// {path:'fruitproducts',component:FruitproductsComponent},
 	// {path:'fruitbanner',component:FruitbannerComponent},
